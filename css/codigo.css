@@ -1,0 +1,125 @@
+#main-header{
+  width: 100%;
+  height: 70px;
+  background-color: #4D4D4D;
+}
+
+#menu-nav{
+  width: 100%;
+  height: 30px;
+  background-color: #DA635D;
+}
+
+li{
+  font-size: 2em;
+  width: 200px;
+  height: 40px;
+  color: black;
+  text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.75);
+}
+/*Background color of the menu class */
+
+#drop-menu{
+  float: right;
+  width: 200px;
+  height: 0px;
+  position: fixed;
+}
+
+.el-menu{
+  display: inline-block;
+  float: right;
+  color: white;
+  font-size: 2em;
+  margin-left: 30px;
+}
+
+#main-container{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 560px;
+  background-color: white;
+  background-image: url(images/bg2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1{
+  font-size: 4em;
+  color: white;
+  margin-left: 20px;
+  text-shadow: 0px 0px 9px rgba(0, 0, 5, 0.75);
+}
+
+h2{
+  font-size: 2em;
+  color: #DA635D;
+  margin-left: 20px;
+  text-align: center;
+  margin-left: -1em;
+}
+
+#menu-container{
+  width: 500px;
+  height: 0px;
+  background-color: #DA635D;
+  float: right;
+  margin-right:30px;
+  margin-top: -1px;
+  position: fixed;
+  margin-left: 500px;
+  display: none;
+}
+
+#click_me{
+  width: 500px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(images/clickhere.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  clear: both;
+}
+
+footer{
+  width: 100%;
+  height: 25px;
+  background-color: #4D4D4D;
+  font-size: 1.2em;
+  text-align: center;
+  color: white;
+  clear: both;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+}
+
+p{
+  text-align: center;
+  font-size: 4em;
+  padding-top: 0.5em;
+  color: white;
+  text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.75);
+}
+
+.menu-drop{
+  width: 90%;
+  height: 150px;
+  clear: both;
+  border: 1px solid #4D4D4D;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+#menu-drop:hover{
+  box-shadow: 0px 0px 50px white;
+  border-color: white;
+}
+
+#m-open{
+  cursor: pointer;
+}
